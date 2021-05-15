@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1429AD265057AE00FA6083 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429AC265057AE00FA6083 /* Tests_iOS.swift */; };
+		4D1429B8265057AE00FA6083 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429B7265057AE00FA6083 /* Tests_macOS.swift */; };
+		4D1429BA265057AE00FA6083 /* airdrummer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D14298E265057AC00FA6083 /* airdrummer.xcdatamodeld */; };
+		4D1429BB265057AE00FA6083 /* airdrummer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D14298E265057AC00FA6083 /* airdrummer.xcdatamodeld */; };
+		4D1429BC265057AE00FA6083 /* airdrummerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D142990265057AC00FA6083 /* airdrummerApp.swift */; };
+		4D1429BD265057AE00FA6083 /* airdrummerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D142990265057AC00FA6083 /* airdrummerApp.swift */; };
+		4D1429BE265057AE00FA6083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D142991265057AC00FA6083 /* ContentView.swift */; };
+		4D1429BF265057AE00FA6083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D142991265057AC00FA6083 /* ContentView.swift */; };
+		4D1429C0265057AE00FA6083 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D142992265057AC00FA6083 /* Persistence.swift */; };
+		4D1429C1265057AE00FA6083 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D142992265057AC00FA6083 /* Persistence.swift */; };
+		4D1429C2265057AE00FA6083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D142993265057AE00FA6083 /* Assets.xcassets */; };
+		4D1429C3265057AE00FA6083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D142993265057AE00FA6083 /* Assets.xcassets */; };
+		4D1429D62650598000FA6083 /* AirAccelerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429D52650598000FA6083 /* AirAccelerator.swift */; };
+		4D1429D72650598000FA6083 /* AirAccelerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429D52650598000FA6083 /* AirAccelerator.swift */; };
+		4D1429D82650598000FA6083 /* AirAccelerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429D52650598000FA6083 /* AirAccelerator.swift */; };
+		4D1429D92650598000FA6083 /* AirAccelerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429D52650598000FA6083 /* AirAccelerator.swift */; };
+		4D1429DB26505D1300FA6083 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429DA26505D1300FA6083 /* Position.swift */; };
+		4D1429DC26505D1300FA6083 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429DA26505D1300FA6083 /* Position.swift */; };
+		4D1429DD26505D1300FA6083 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429DA26505D1300FA6083 /* Position.swift */; };
+		4D1429DE26505D1300FA6083 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1429DA26505D1300FA6083 /* Position.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1429A9265057AE00FA6083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D142989265057AC00FA6083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D142997265057AE00FA6083;
+			remoteInfo = "airdrummer (iOS)";
+		};
+		4D1429B4265057AE00FA6083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D142989265057AC00FA6083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D14299F265057AE00FA6083;
+			remoteInfo = "airdrummer (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D14298F265057AC00FA6083 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		4D142990265057AC00FA6083 /* airdrummerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airdrummerApp.swift; sourceTree = "<group>"; };
+		4D142991265057AC00FA6083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D142992265057AC00FA6083 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4D142993265057AE00FA6083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D142998265057AE00FA6083 /* airdrummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airdrummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D14299B265057AE00FA6083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1429A0265057AE00FA6083 /* airdrummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airdrummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1429A2265057AE00FA6083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1429A3265057AE00FA6083 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4D1429A8265057AE00FA6083 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1429AC265057AE00FA6083 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		4D1429AE265057AE00FA6083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1429B3265057AE00FA6083 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1429B7265057AE00FA6083 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		4D1429B9265057AE00FA6083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1429D52650598000FA6083 /* AirAccelerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AirAccelerator.swift; path = ../../../../AirAccelerator.swift; sourceTree = "<group>"; };
+		4D1429DA26505D1300FA6083 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Position.swift; path = ../../../../Position.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D142995265057AE00FA6083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D14299D265057AE00FA6083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1429A5265057AE00FA6083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1429B0265057AE00FA6083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D142988265057AC00FA6083 = {
+			isa = PBXGroup;
+			children = (
+				4D14298D265057AC00FA6083 /* Shared */,
+				4D14299A265057AE00FA6083 /* iOS */,
+				4D1429A1265057AE00FA6083 /* macOS */,
+				4D1429AB265057AE00FA6083 /* Tests iOS */,
+				4D1429B6265057AE00FA6083 /* Tests macOS */,
+				4D142999265057AE00FA6083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D14298D265057AC00FA6083 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4D1429D22650592600FA6083 /* airdrummer */,
+				4D142990265057AC00FA6083 /* airdrummerApp.swift */,
+				4D142991265057AC00FA6083 /* ContentView.swift */,
+				4D142992265057AC00FA6083 /* Persistence.swift */,
+				4D142993265057AE00FA6083 /* Assets.xcassets */,
+				4D14298E265057AC00FA6083 /* airdrummer.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4D142999265057AE00FA6083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D142998265057AE00FA6083 /* airdrummer.app */,
+				4D1429A0265057AE00FA6083 /* airdrummer.app */,
+				4D1429A8265057AE00FA6083 /* Tests iOS.xctest */,
+				4D1429B3265057AE00FA6083 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D14299A265057AE00FA6083 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D14299B265057AE00FA6083 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		4D1429A1265057AE00FA6083 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D1429A2265057AE00FA6083 /* Info.plist */,
+				4D1429A3265057AE00FA6083 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4D1429AB265057AE00FA6083 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D1429AC265057AE00FA6083 /* Tests_iOS.swift */,
+				4D1429AE265057AE00FA6083 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		4D1429B6265057AE00FA6083 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D1429B7265057AE00FA6083 /* Tests_macOS.swift */,
+				4D1429B9265057AE00FA6083 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		4D1429D22650592600FA6083 /* airdrummer */ = {
+			isa = PBXGroup;
+			children = (
+				4D1429D42650594000FA6083 /* Accelorameter */,
+				4D1429D32650593700FA6083 /* Gyroscope */,
+			);
+			path = airdrummer;
+			sourceTree = "<group>";
+		};
+		4D1429D32650593700FA6083 /* Gyroscope */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gyroscope;
+			sourceTree = "<group>";
+		};
+		4D1429D42650594000FA6083 /* Accelorameter */ = {
+			isa = PBXGroup;
+			children = (
+				4D1429D52650598000FA6083 /* AirAccelerator.swift */,
+				4D1429DA26505D1300FA6083 /* Position.swift */,
+			);
+			path = Accelorameter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D142997265057AE00FA6083 /* airdrummer (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1429C6265057AE00FA6083 /* Build configuration list for PBXNativeTarget "airdrummer (iOS)" */;
+			buildPhases = (
+				4D142994265057AE00FA6083 /* Sources */,
+				4D142995265057AE00FA6083 /* Frameworks */,
+				4D142996265057AE00FA6083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "airdrummer (iOS)";
+			productName = "airdrummer (iOS)";
+			productReference = 4D142998265057AE00FA6083 /* airdrummer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D14299F265057AE00FA6083 /* airdrummer (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1429C9265057AE00FA6083 /* Build configuration list for PBXNativeTarget "airdrummer (macOS)" */;
+			buildPhases = (
+				4D14299C265057AE00FA6083 /* Sources */,
+				4D14299D265057AE00FA6083 /* Frameworks */,
+				4D14299E265057AE00FA6083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "airdrummer (macOS)";
+			productName = "airdrummer (macOS)";
+			productReference = 4D1429A0265057AE00FA6083 /* airdrummer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D1429A7265057AE00FA6083 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1429CC265057AE00FA6083 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				4D1429A4265057AE00FA6083 /* Sources */,
+				4D1429A5265057AE00FA6083 /* Frameworks */,
+				4D1429A6265057AE00FA6083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1429AA265057AE00FA6083 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 4D1429A8265057AE00FA6083 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4D1429B2265057AE00FA6083 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1429CF265057AE00FA6083 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				4D1429AF265057AE00FA6083 /* Sources */,
+				4D1429B0265057AE00FA6083 /* Frameworks */,
+				4D1429B1265057AE00FA6083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1429B5265057AE00FA6083 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 4D1429B3265057AE00FA6083 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D142989265057AC00FA6083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4D142997265057AE00FA6083 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4D14299F265057AE00FA6083 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4D1429A7265057AE00FA6083 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4D142997265057AE00FA6083;
+					};
+					4D1429B2265057AE00FA6083 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4D14299F265057AE00FA6083;
+					};
+				};
+			};
+			buildConfigurationList = 4D14298C265057AC00FA6083 /* Build configuration list for PBXProject "airdrummer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D142988265057AC00FA6083;
+			productRefGroup = 4D142999265057AE00FA6083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D142997265057AE00FA6083 /* airdrummer (iOS) */,
+				4D14299F265057AE00FA6083 /* airdrummer (macOS) */,
+				4D1429A7265057AE00FA6083 /* Tests iOS */,
+				4D1429B2265057AE00FA6083 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D142996265057AE00FA6083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1429C2265057AE00FA6083 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D14299E265057AE00FA6083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1429C3265057AE00FA6083 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1429A6265057AE00FA6083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1429B1265057AE00FA6083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D142994265057AE00FA6083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1429D62650598000FA6083 /* AirAccelerator.swift in Sources */,
+				4D1429BA265057AE00FA6083 /* airdrummer.xcdatamodeld in Sources */,
+				4D1429DB26505D1300FA6083 /* Position.swift in Sources */,
+				4D1429C0265057AE00FA6083 /* Persistence.swift in Sources */,
+				4D1429BC265057AE00FA6083 /* airdrummerApp.swift in Sources */,
+				4D1429BE265057AE00FA6083 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D14299C265057AE00FA6083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1429D72650598000FA6083 /* AirAccelerator.swift in Sources */,
+				4D1429BB265057AE00FA6083 /* airdrummer.xcdatamodeld in Sources */,
+				4D1429DC26505D1300FA6083 /* Position.swift in Sources */,
+				4D1429C1265057AE00FA6083 /* Persistence.swift in Sources */,
+				4D1429BD265057AE00FA6083 /* airdrummerApp.swift in Sources */,
+				4D1429BF265057AE00FA6083 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1429A4265057AE00FA6083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1429D82650598000FA6083 /* AirAccelerator.swift in Sources */,
+				4D1429AD265057AE00FA6083 /* Tests_iOS.swift in Sources */,
+				4D1429DD26505D1300FA6083 /* Position.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1429AF265057AE00FA6083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1429D92650598000FA6083 /* AirAccelerator.swift in Sources */,
+				4D1429B8265057AE00FA6083 /* Tests_macOS.swift in Sources */,
+				4D1429DE26505D1300FA6083 /* Position.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1429AA265057AE00FA6083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D142997265057AE00FA6083 /* airdrummer (iOS) */;
+			targetProxy = 4D1429A9265057AE00FA6083 /* PBXContainerItemProxy */;
+		};
+		4D1429B5265057AE00FA6083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D14299F265057AE00FA6083 /* airdrummer (macOS) */;
+			targetProxy = 4D1429B4265057AE00FA6083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D1429C4265057AE00FA6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D1429C5265057AE00FA6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4D1429C7265057AE00FA6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcli.airdrummer;
+				PRODUCT_NAME = airdrummer;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D1429C8265057AE00FA6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcli.airdrummer;
+				PRODUCT_NAME = airdrummer;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1429CA265057AE00FA6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcli.airdrummer;
+				PRODUCT_NAME = airdrummer;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D1429CB265057AE00FA6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcli.airdrummer;
+				PRODUCT_NAME = airdrummer;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4D1429CD265057AE00FA6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcli.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "airdrummer (iOS)";
+			};
+			name = Debug;
+		};
+		4D1429CE265057AE00FA6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcli.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "airdrummer (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1429D0265057AE00FA6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcli.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "airdrummer (macOS)";
+			};
+			name = Debug;
+		};
+		4D1429D1265057AE00FA6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcli.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "airdrummer (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D14298C265057AC00FA6083 /* Build configuration list for PBXProject "airdrummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1429C4265057AE00FA6083 /* Debug */,
+				4D1429C5265057AE00FA6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1429C6265057AE00FA6083 /* Build configuration list for PBXNativeTarget "airdrummer (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1429C7265057AE00FA6083 /* Debug */,
+				4D1429C8265057AE00FA6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1429C9265057AE00FA6083 /* Build configuration list for PBXNativeTarget "airdrummer (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1429CA265057AE00FA6083 /* Debug */,
+				4D1429CB265057AE00FA6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1429CC265057AE00FA6083 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1429CD265057AE00FA6083 /* Debug */,
+				4D1429CE265057AE00FA6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1429CF265057AE00FA6083 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1429D0265057AE00FA6083 /* Debug */,
+				4D1429D1265057AE00FA6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D14298E265057AC00FA6083 /* airdrummer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D14298F265057AC00FA6083 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 4D14298F265057AC00FA6083 /* Shared.xcdatamodel */;
+			path = airdrummer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D142989265057AC00FA6083 /* Project object */;
+}
